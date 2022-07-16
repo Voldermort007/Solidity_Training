@@ -1,3 +1,3 @@
 # Solidity_Training
 
-Adding codes tested during solidity training.
+Smart Contracts tested during solidity training.
