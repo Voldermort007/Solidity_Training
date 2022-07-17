@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+// data-types - values & references
+
+contract valuetype{
+    bool public booltemp = true; // true or false
+    uint public temp = 254; // 0 to 2^256 -1
+    int public temp1 = 145; // -2^256 to +2^256 -1
+    address public addr; // address stored in workspace
+    bytes32 public b32; //   hex data 
+}
