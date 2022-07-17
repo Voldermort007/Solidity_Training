@@ -1,0 +1,27 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+// state_variable
+
+contract local_variable{
+
+    uint public age;
+    bool public b1;
+    address public newadd;
+
+    function fun(uint _x, bool _y, address _z) public returns(uint, bool){
+
+        uint i=29;
+        bool b2=true;
+
+        i+=29;
+        b2=false;
+
+        age =_x;
+        b1 = _y;
+        newadd = _z;
+
+        return(i, b2);
+    }
+}
