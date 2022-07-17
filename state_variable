@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+// state_variable
+
+contract state_variable{
+    uint public salary;  // or instead of constructor use {uint public salary=10;}
+
+    constructor(){
+        salary=10;
+    }
+
+    function setsalary() public{
+        salary=1000;
+    }
+}
